@@ -1,0 +1,33 @@
+{
+    "name": "wronx/lumen-rest-object-fetch-middleware",
+    "description": "Simple Lumen middleware for simple fetching simple objects in simple REST API endpoints",
+    "license": "WTFPL",
+    "type": "lumen-package",
+    "keywords": [
+        "rest",
+        "middleware",
+        "lumen"
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/http": "^5.6",
+        "illuminate/support": "^5.6",
+        "symfony/http-kernel": "^4.1"
+    },
+    "authors": [
+        {
+            "name": "Marcin \"WRonX\" Wronka",
+            "email": "wronx@wronx.net",
+            "homepage": "http://wronx.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WRonX\\LumenRestObjectFetch\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
